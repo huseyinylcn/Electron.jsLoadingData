@@ -1,0 +1,203 @@
+#box{
+    width: 500px;
+    height: 420px;
+    border:  5px double rgb(11, 11, 11);
+    background-color: rgba(225, 219, 219, 0.67);
+    position: relative;
+}
+.lastradio{
+    width: 50px;
+    height: 50px;
+margin-right: 10px;
+    text-align: center;
+}
+.lastradio label{
+color: darkslategray;
+font-size: 19px;
+font-weight: bold;
+font-family: 'Courier New', Courier, monospace;
+
+}
+.lastradio input{
+  
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    
+
+
+    }
+    #radio{
+        width: 370px;
+        display: flex;
+    border: 5px double black;
+     
+    }
+    #bilgi{
+        width: 370px;
+        height: 50px;
+        display: flex;
+    border: 5px double black;
+
+     
+    }
+
+    .file-upload-wrapper {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+      }
+      
+      .file-upload-wrapper input {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        cursor: pointer;
+        opacity: 0;
+        filter: alpha(opacity=0);
+      }
+      
+      .custom-file-upload {
+        display: inline-block;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+        padding: 6px 12px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+      }
+      
+      .custom-file-upload:hover {
+        background-color: #ddd;
+      }
+      
+  
+      
+    #bilgi input{
+        width: 140px;
+        height: 30px;
+        border: 5px double gray;
+        margin: 0 10px;
+        font-size: 16px;
+        font-family: sans-serif;
+    }
+  
+  
+    #date{
+        width: 125px;
+        height: 50px;
+        border: 5px double black;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'DS-Digital';
+
+    }
+ 
+    .middle{
+        display: flex;
+        
+    }
+    #undefined{
+        width: 125px;
+        height: 50px;
+        border: 5px double black;
+        text-align: center;
+        
+    }
+    #x{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: red;
+        border: 5px solid black;
+        font-size: 30px;
+        margin: auto;
+        font-family: fantasy;
+        color: aliceblue;
+        transition: 0.5s;
+    }
+    #x:hover{
+        height: 41px;
+        width: 42px;
+        background-color: rgb(203, 17, 17);
+    }
+    #data{
+        width: 370px;
+        height: 200px;
+        border: 5px double black;
+        background-color: ghostwhite;
+
+    }
+    #data p{
+        font-family: 'DS-Digital';
+        margin-left:10px ;
+        font-size: 13px;
+        height: 10px;
+        margin-bottom: 10px;
+
+    }
+    #duty{
+        width: 125px;
+        height: 200px;
+        border: 5px double black;
+        text-align: center;
+        
+    }
+    #info{
+        width: 370px;
+      height: 85px;
+    border: 5px double black;
+    font-family: sans-serif ;
+    letter-spacing: 1px;
+
+    }
+    #button{
+        width: 125px;
+        height: 85px;
+    border: 5px double black;
+
+    }
+    #btn{
+        width: 107px;
+        height: 52px;
+        cursor: pointer;
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+        border: 5px ridge rgb(178, 174, 174);
+        font-size: 25px;
+        font-family: fantasy;
+        letter-spacing: 1px;
+        transition: 0.4s;
+    }
+    #btn:hover{
+background-color: rgb(255, 255, 255);
+width: 110px;
+height: 54px;
+color: rgb(16, 16, 16);
+    }
+    #frost{
+        transform: rotate(90deg);
+        text-align: center;
+    }
+    #first{
+        font-size: 40px;
+        font-family: 'DS-Digital';
+        height: 20px;
+        letter-spacing: 2px;
+
+
+    }
+    #last{
+        font-size: 25px;
+        height: 20px;
+        font-family: 'DS-Digital';
+    }
+    #color{
+      color: rgba(225, 219, 219, 0.67);
+
+    }

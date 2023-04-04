@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Uploder</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/ds-digital" rel="stylesheet">
+</head>
+
+<body>
+    <div id="box">
+        <div class="middle">
+            <div id="bilgi">
+                <input type="text" name="" id="station" placeholder="İstasyon İsmi">
+
+                <div class="file-upload-wrapper">
+                    <button class="custom-file-upload">Dosya Seçin</button>
+                    <input type="file" name="file" id="stationpath" class="file-upload"  webkitdirectory>
+                   
+                  </div>
+            </div>
+            <div id="date">
+              
+            </div>
+        </div>
+        <div class="middle">
+            <div id="radio">
+                <div class="lastradio">
+                    <label>.log</label>
+                    <input value=".log" type="radio" name="uz">
+                </div>
+                <div class="lastradio">
+                    <label>.LOG</label>
+                    <input value=".LOG" type="radio" name="uz">
+                </div>
+                <div class="lastradio">
+                    <label>.buf</label>
+                    <input value=".buf" type="radio" name="uz">
+                </div>
+                <div class="lastradio">
+                    <label>.BUF</label>
+                    <input value=".BUF" type="radio" name="uz">
+                </div>
+                <div class="lastradio">
+                    <label>.dat</label>
+                    <input value=".dat" type="radio" name="uz">
+                </div>
+                <div class="lastradio">
+                    <label>.DAT</label>
+                    <input value=".DAT" type="radio" name="uz">
+                </div>
+
+
+            </div>
+            <div id="undefined">
+                <div id="x">x</div>
+            </div>
+
+        </div>
+        <div class="middle">
+            <div id="data">
+                <!-- <p>Veri Göderiliyor => 12:08:45</p>
+                <p>Veri Göderiliyor => 12:08:55</p>
+                <p>Veri Göderiliyor => 12:09:05</p> -->
+
+
+
+            </div>
+            <div id="duty">
+                <div id="frost">
+                    
+                   <p id="first">Firebase </p>
+                   <p id="last">Data<span id="color">...</span>Uploading</p>  
+                
+                </div>
+            </div>
+
+        </div>
+        <div class="middle">
+            <div id="info">
+                <b>File Path: </b><span id="station-path-info"></span> 
+                <br>
+                <b>Station Name : </b><span id="station-info"></span>
+                <br>
+                <b>File Extension : </b><span id="station-extension-info"></span>
+
+            </div>
+            <div id="button">
+                <button id="btn">Login</button>
+            </div>
+
+        </div>
+    </div>
+
+
+  <script src="index.js"></script>
+</body>
+</html>

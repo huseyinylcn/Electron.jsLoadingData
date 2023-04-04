@@ -1,0 +1,22 @@
+{
+  "name": "firebase-uploader",
+  "version": "1.0.0",
+  "description": "AGL Sistem uygulaması",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . my-electron-app --platform=win32 --arch=ia32 --out dist/ --overwrite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.1.0",
+    "electron-packager": "^17.1.1",
+    "electron-prebuilt-compile": "^8.2.0"
+  },
+  "dependencies": {
+    "firebase-admin": "^8.9.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
